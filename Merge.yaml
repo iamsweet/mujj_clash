@@ -1,0 +1,32 @@
+# Profile Enhancement Merge Template for Clash Verge
+
+profile:
+  store-selected: true
+
+dns:
+  enable: true
+  prefer-h3: true
+  use-system-hosts: true
+  listen: :53
+  ipv6: true
+  enhanced-mode: normal
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 119.29.29.29
+    - 182.254.116.116
+    - 180.76.76.76
+    - 114.114.114.114
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - https://1.0.0.1/dns-query
+    - tls://dns.google
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+      - 2001::1/128
+      - ::1/128
+      - 61.160.148.90/32
