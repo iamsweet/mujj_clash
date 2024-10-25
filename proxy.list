@@ -1,11 +1,2 @@
 # 自定义代理
 DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,ciciai.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,chat.openai.com
-DOMAIN-SUFFIX,auth0.openai.com
-DOMAIN-SUFFIX,platform.openai.com
-DOMAIN,openaiapi-site.azureedge.net
-DOMAIN,chatgpt.com
-DOMAIN,auth.openai.com
-DOMAIN,netflix.com
