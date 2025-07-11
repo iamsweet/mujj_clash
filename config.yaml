@@ -145,11 +145,11 @@ proxy-groups:
 # 此规则部分没有做防泄露处理，因为弊严重大于利！
 rules:
   - DOMAIN-SUFFIX,qichiyu.com,🚀 默认代理
-  - RULE-SET,proxylite,🚀 默认代理
   - RULE-SET,private_domain,直连
   - RULE-SET,mujjdirect,直连
-  - DOMAIN-SUFFIX,qichiyu.com,🚀 自定义
   - RULE-SET,mujjproxy,🚀 自定义
+  - RULE-SET,proxylite,🚀 默认代理
+  - DOMAIN-SUFFIX,qichiyu.com,🚀 自定义
   - RULE-SET,apple_domain,🍎 Apple
   - RULE-SET,ai,🤖 人工智能
   - RULE-SET,github_domain,👨🏿‍💻 GitHub
