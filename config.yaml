@@ -182,6 +182,7 @@ rule-providers:
   private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
   proxylite: { <<: *class, url: "https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/proxy.list"}
   mujjdirect: { <<: *class, url: "https://raw.githubusercontent.com/iamsweet/mujj_clash/refs/heads/main/direct.list"}
+  PT: { <<: *class, url: "https://raw.githubusercontent.com/WPF0414/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list"}
   mujjproxy: { <<: *class, url: "https://raw.githubusercontent.com/iamsweet/mujj_clash/refs/heads/main/proxy.list"}
   ai: {  <<: *domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs" }
   youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
