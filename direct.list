@@ -1,4 +1,6 @@
 # 自定义直连
+DOMAIN-SUFFIX,time.windows.com
+DOMAIN-SUFFIX,time.apple.com
 DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,amazonaws.cn
 DOMAIN-SUFFIX,amazonaws.com.cn
